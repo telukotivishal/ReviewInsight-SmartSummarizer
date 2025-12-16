@@ -200,9 +200,9 @@ function Features() {
                     <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-4">
                       {getData?.product_name || "Product name not available"}
                     </h3>
-                    <div className="text-3xl font-bold text-green-600 dark:text-green-400">
+                    {/* <div className="text-3xl font-bold text-green-600 dark:text-green-400">
                       {getData?.price  || "N/A"}
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
