@@ -54,7 +54,7 @@ function Features() {
   const handleReviews = async (productName) => {
   try {
     const response = await axios.post(
-      "http://localhost:5000/search", //Also update this URL by keeping it in .env file for production
+      `${import.meta.env.VITE_BACKEND_URL}/search`, //Also update this URL by keeping it in .env file for production
       { name: productName }
     );
 
